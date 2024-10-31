@@ -1,3 +1,4 @@
+import Image from "next/image"
 const Portfolio=()=>{
 return (
 <div className="bg-[url(/images/stars-image.png)] h-[640px] pt-10">
@@ -8,7 +9,7 @@ return (
           <h2 className="text-white text-4xl font-semibold mb-[16px]">Front End Developer</h2>
           <h3 className="text-white text-xl font-medium mb-[12px] w-[95%]">I am currently expanding my skill set in full-stack development and artificial intelligence at GIAIC. Passionate and excited about these fields, I look forward to applying my knowledge to create innovative solutions and drive impactful projects.</h3>
         </div>
-        <div className="w-[40%]"><img className="h-[340px] w-[340px] rounded-[50%]" src="/images/boy-image.png" alt="" /></div>
+        <div className="w-[40%]"><Image className="rounded-[50%]" src="/images/boy-image.png" alt="" height={340} width={340}></Image></div>
       </div>
         <h1>My Projects</h1>
       </div>
